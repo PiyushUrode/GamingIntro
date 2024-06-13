@@ -789,7 +789,7 @@ header.fixed .navbar {
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
-    width: 325px;
+    width: 300px;
 
 }
 
@@ -798,7 +798,7 @@ header.fixed .navbar {
     position: absolute;
     left: 5px;
     top: 5px;
-    background-color: #fff;
+    background-color: #ffffff;
     width: calc(100% - 10px);
     height: 92%;
 }
@@ -817,12 +817,16 @@ header.fixed .navbar {
 }
 
 .banner_section .banner_slider #frmae_slider {
-    width: 305px;
+    width: 300px;
+    /* height: 600px; */
     margin: 0 auto;
+    border-radius: 4rem;
+    overflow: hidden;
     
 }
 
-#slider_img1{ width: 325px; height: 616px ; }
+#slider_img1{ width: 300px; height: 600px ; object-fit: contain; margin-top: 15px; }
+#slider_img2{ width: 100% ; height: 100%; object-fit: cover;}
 
 /* hero slider control dots */
 .banner_section .owl-dots {
@@ -881,6 +885,8 @@ header.fixed .navbar {
     left: 50%;
     transform: translateX(-50%);
     top: -75px;
+    width: 300px;
+
 }
 
 .features_section .feature_detail .feature_img img {
